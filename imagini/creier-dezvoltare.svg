@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="180" viewBox="0 0 520 180">
+  <rect width="520" height="180" fill="#F2E9E4"/>
+  <g>
+    <circle cx="85" cy="80" r="34" fill="#C9ADA7"/>
+    <text x="85" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#22223B">nou-născut</text>
+  </g>
+  <g>
+    <circle cx="260" cy="80" r="34" fill="#9A8C98"/>
+    <line x1="240" y1="60" x2="280" y2="100" stroke="#F2E9E4" stroke-width="2"/>
+    <line x1="280" y1="60" x2="240" y2="100" stroke="#F2E9E4" stroke-width="2"/>
+    <text x="260" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#22223B">copil</text>
+  </g>
+  <g>
+    <circle cx="435" cy="80" r="34" fill="#4A4E69"/>
+    <line x1="412" y1="55" x2="458" y2="105" stroke="#F2E9E4" stroke-width="2"/>
+    <line x1="458" y1="55" x2="412" y2="105" stroke="#F2E9E4" stroke-width="2"/>
+    <line x1="412" y1="80" x2="458" y2="80" stroke="#C9ADA7" stroke-width="2"/>
+    <line x1="435" y1="52" x2="435" y2="108" stroke="#C9ADA7" stroke-width="2"/>
+    <text x="435" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#22223B">adult</text>
+  </g>
+  <text x="260" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#9A8C98">prunarea: mai puține, dar mai puternice legături</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
+  <rect width="400" height="220" fill="#F2E9E4"/>
+  <line x1="40" y1="20" x2="40" y2="180" stroke="#22223B" stroke-width="2"/>
+  <line x1="40" y1="180" x2="380" y2="180" stroke="#22223B" stroke-width="2"/>
+  <path d="M40 20 C 70 90, 100 130, 160 150 C 240 168, 320 174, 380 176" fill="none" stroke="#4A4E69" stroke-width="4"/>
+  <path d="M40 20 C 80 40, 140 60, 200 72 C 260 84, 320 88, 380 90" fill="none" stroke="#C9ADA7" stroke-width="4" stroke-dasharray="8,6"/>
+  <text x="46" y="34" font-family="Georgia, serif" font-size="13" fill="#22223B">fără repetiție</text>
+  <text x="250" y="66" font-family="Georgia, serif" font-size="13" fill="#9A8C98">cu repetiție spațiată</text>
+  <text x="200" y="206" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#4A4E69">timp (zile)</text>
+  <text x="18" y="105" font-family="Georgia, serif" font-size="13" fill="#4A4E69" transform="rotate(-90 18 105)">retenție</text>
+</svg>

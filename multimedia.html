@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Multimedia — Psihologia Umană: videoclip, sunet de relaxare, iframe extern și galerie.">
+  <meta name="author" content="Proiect individual — HTML">
+  <title>Multimedia — Psihologia Umană</title>
+</head>
+<body bgcolor="#F2E9E4" text="#22223B" link="#4A4E69" vlink="#9A8C98" alink="#C9ADA7">
+
+<!-- ================= BANDA SUPERIOARĂ ================= -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#22223B">
+  <tr><td height="12">&nbsp;</td></tr>
+</table>
+
+<!-- ================= ANTETUL PAGINII ================= -->
+<header>
+  <table width="960" border="0" cellpadding="0" cellspacing="0">
+    <tr valign="top">
+      <td>
+        <p><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">PSIHOLOGIA UMANĂ &middot; MULTIMEDIA &middot; PAGINA 3 DIN 4</font></p>
+        <h1><font face="Georgia, 'Times New Roman', serif" size="6" color="#22223B">Multimedia</font></h1>
+        <p><font face="Georgia, serif" size="3" color="#4A4E69">Videoclip, sunete, resurse externe și galerie.<br>Totul pentru o minte calmă și o memorie bună.</font></p>
+      </td>
+      <td width="140" align="left">
+        <img src="imagini/sigla.png" alt="Sigla site-ului: profil de cap cu undă cerebrală" width="96" height="96" loading="eager">
+      </td>
+    </tr>
+  </table>
+  <table width="960" border="0" cellpadding="0" cellspacing="0">
+    <tr><td width="180" height="4" bgcolor="#C9ADA7">&nbsp;</td></tr>
+  </table>
+</header>
+
+<!-- ================= MENIUL COMUN DE NAVIGARE ================= -->
+<nav>
+  <table width="960" border="0" cellpadding="8" cellspacing="0" bgcolor="#E8E0F0">
+    <tr>
+      <td align="left">
+        <font face="Verdana, Arial, sans-serif" size="2" color="#4A4E69">
+          <a href="index.html"><strong>ACASĂ</strong></a> &nbsp;&bull;&nbsp;
+          <a href="ghid.html"><strong>GHID</strong></a> &nbsp;&bull;&nbsp;
+          <strong><font color="#C9ADA7">MULTIMEDIA</font></strong> &nbsp;&bull;&nbsp;
+          <a href="formular.html"><strong>CHESTIONAR</strong></a>
+        </font>
+      </td>
+    </tr>
+  </table>
+</nav>
+
+<!-- ================= CONȚINUTUL PRINCIPAL ================= -->
+<main>
+<table width="960" border="0" cellpadding="0" cellspacing="0">
+<tr><td align="left">
+
+  <p>&nbsp;</p>
+
+  <!-- ===== 1. VIDEO ===== -->
+  <section id="video">
+    <h2><font face="Georgia, serif" size="5" color="#22223B">1. Videoclip: respirația 4-7-8</font></h2>
+    <p align="left">
+      Un cerc se <strong>dilată</strong> în timpul inspirului (4 s) și se <strong>contractă</strong> în timpul expirului (4 s).<br>
+      Urmează-l cu privirea timp de 8 secunde și repetă de câte ori ai nevoie. Fiecare ciclu complet<br>
+      durează 8 secunde &mdash; exact cât un ciclu de respirație liniștită.
+    </p>
+
+    <figure>
+      <video src="video/respiratie-478.mp4" controls poster="imagini/coperta-video.png" width="320" height="240" preload="metadata" loop muted></video>
+      <figcaption><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">Fig. 1 &mdash; Videoclipul folosește atributele <code>controls</code>, <code>poster</code>, <code>width</code>, <code>height</code>, <code>loop</code>, <code>muted</code>.</font></figcaption>
+    </figure>
+
+    <p align="left"><small>Formatul nativ MP4 (H.264) funcționează în toate browserele moderne, fără plugin-uri.</small></p>
+  </section>
+
+  <hr color="#C9ADA7" size="2" width="100%" noshade>
+
+  <!-- ===== 2. AUDIO CU SOURCE ===== -->
+  <section id="audio">
+    <h3><font face="Georgia, serif" size="4" color="#4A4E69">2. Sunet de relaxare (acord A3+E4+A4)</font></h3>
+    <p align="left">
+      16 secunde de ton pur cu val lent de intensitate &mdash; potrivit pentru exercițiul de respirație.<br>
+      Playerul folosește <code>&lt;audio controls&gt;</code> cu <code>&lt;source type="audio/wav"&gt;</code>.
+    </p>
+    <figure>
+      <table width="420" border="0" cellpadding="14" cellspacing="0" bgcolor="#E8E0F0">
+        <tr><td align="center">
+          <img src="imagini/coperta-audio.png" alt="Coperta piesei audio: cercuri concentrice" width="180" height="180" loading="lazy"><br>
+          <audio controls>
+            <source src="audio/sunet-relaxare.wav" type="audio/wav">
+            Browserul tău nu suportă elementul audio.
+          </audio>
+        </td></tr>
+      </table>
+      <figcaption><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">Fig. 2 &mdash; Sunetul de relaxare: acord A3 + E4 + A4, 16 s.</font></figcaption>
+    </figure>
+    <p align="left">
+      Pentru ritm în exercițiul de atenție, folosește metronomul de pe
+      <a href="ghid.html#somn">pagina Ghid (secțiunea Somnul)</a>.
+    </p>
+  </section>
+
+  <hr color="#C9ADA7" size="2" width="100%" noshade>
+
+  <!-- ===== 3. IFRAME ===== -->
+  <section id="resurse">
+    <h3><font face="Georgia, serif" size="4" color="#4A4E69">3. Resurse externe în iframe</font></h3>
+    <p align="left">
+      Elementul <code>&lt;iframe&gt;</code> include o pagină externă direct în pagina ta. Aici: un mini-curs<br>
+      de psihologie, integrat cu atributele <code>src</code>, <code>width</code>, <code>height</code>, <code>title</code>, <code>loading</code>.
+    </p>
+    <figure>
+      <iframe src="https://ro.wikipedia.org/wiki/Psihologie" title="Articol extern: Psihologie (Wikipedia)" width="480" height="320" loading="lazy"></iframe>
+      <figcaption><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">Fig. 3 &mdash; Resursă externă, încărcată cu <code>loading="lazy"</code>.</font></figcaption>
+    </figure>
+    <p align="left">
+      Dacă fereastra nu se încarcă (unele site-uri blochează includerea), folosește legătura directă:<br>
+      <a href="https://ro.wikipedia.org/wiki/Psihologie" target="_blank">deschide articolul într-o fereastră nouă</a>.
+    </p>
+  </section>
+
+  <hr color="#C9ADA7" size="2" width="100%" noshade>
+
+  <!-- ===== 4. GALERIE ===== -->
+  <section id="galerie">
+    <h3><font face="Georgia, serif" size="4" color="#4A4E69">4. Galerie — patru carduri</font></h3>
+    <p align="left">
+      Patru miniaturi, fiecare în <code>&lt;figure&gt;</code> cu <code>&lt;figcaption&gt;</code>, cu <code>srcset</code> și <code>sizes</code>.
+    </p>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr valign="top">
+        <td width="25%" align="center">
+          <figure>
+            <img src="imagini/galerie-atentie.png" srcset="imagini/galerie-atentie.png 300w" sizes="(max-width: 960px) 100vw, 225px" alt="Card: Atenția — observă un singur gând" width="225" height="150" loading="lazy">
+            <figcaption><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">Atenția — observă un singur gând</font></figcaption>
+          </figure>
+        </td>
+        <td width="25%" align="center">
+          <figure>
+            <img src="imagini/galerie-memorie.png" srcset="imagini/galerie-memorie.png 300w" sizes="(max-width: 960px) 100vw, 225px" alt="Card: Memoria — amintește-ți cu repetiție" width="225" height="150" loading="lazy">
+            <figcaption><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">Memoria — amintește-ți cu repetiție</font></figcaption>
+          </figure>
+        </td>
+        <td width="25%" align="center">
+          <figure>
+            <img src="imagini/galerie-emotii.png" srcset="imagini/galerie-emotii.png 300w" sizes="(max-width: 960px) 100vw, 225px" alt="Card: Emoțiile — numește-ți trăirea" width="225" height="150" loading="lazy">
+            <figcaption><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">Emoțiile — numește-ți trăirea</font></figcaption>
+          </figure>
+        </td>
+        <td width="25%" align="center">
+          <figure>
+            <img src="imagini/galerie-somn.png" srcset="imagini/galerie-somn.png 300w" sizes="(max-width: 960px) 100vw, 225px" alt="Card: Somnul — dormi pentru memorie" width="225" height="150" loading="lazy">
+            <figcaption><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">Somnul — dormi pentru memorie</font></figcaption>
+          </figure>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <hr color="#C9ADA7" size="2" width="100%" noshade>
+
+  <!-- ===== 5. FIȘA TEHNICĂ ===== -->
+  <section id="fisa">
+    <h3><font face="Georgia, serif" size="4" color="#4A4E69">5. Fișa tehnică a resurselor</font></h3>
+    <p align="left">Tot ce conține folderul site-ului, la un loc. Pentru a folosi corect resursele:</p>
+    <ol type="1">
+      <li>deschide videoclipul și urmărește un ciclu complet de respirație;</li>
+      <li>pornește sunetul de relaxare în fundal;</li>
+      <li>notează în <a href="formular.html">chestionar</a> cum te simți după.</li>
+    </ol>
+    <table border="1" cellpadding="6" cellspacing="0" width="100%" bordercolor="#C9ADA7">
+      <caption align="top"><font face="Georgia, serif" size="2" color="#22223B"><strong>Resursele site-ului</strong> &mdash; tabel 2</font></caption>
+      <colgroup>
+        <col width="34%">
+        <col width="16%">
+        <col width="50%">
+      </colgroup>
+      <thead>
+        <tr bgcolor="#22223B">
+          <th align="left"><font face="Georgia, serif" color="#F2E9E4">Fișier</font></th>
+          <th align="left"><font face="Georgia, serif" color="#F2E9E4">Tip</font></th>
+          <th align="left"><font face="Georgia, serif" color="#F2E9E4">Descriere</font></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><code>video/respiratie-478.mp4</code></td><td>video</td><td>Cerc care respiră, 8 s, 320×240, tăcut</td></tr>
+        <tr><td><code>audio/sunet-relaxare.wav</code></td><td>audio</td><td>Acord A3+E4+A4, 16 s, anvelopă lentă</td></tr>
+        <tr><td><code>audio/metronom.wav</code></td><td>audio</td><td>120 bpm, 6 s, pentru exercițiul de atenție</td></tr>
+        <tr><td><code>imagini/banner-minte.png</code></td><td>imagine</td><td>Rețea de noduri — mintea ca rețea</td></tr>
+        <tr><td><code>imagini/harta-psihic.svg</code></td><td>SVG</td><td>Harta psihicului, cu zone clicabile (<code>usemap</code>)</td></tr>
+        <tr><td><code>imagini/curba-uitarii.png</code></td><td>imagine</td><td>Curba uitării (Ebbinghaus), 640×360</td></tr>
+        <tr><td><code>imagini/curba-uitarii-mica.png</code></td><td>imagine</td><td>Curba uitării, varianta mică pentru <code>&lt;picture&gt;</code></td></tr>
+        <tr><td><code>imagini/roata-emotiilor.png</code></td><td>imagine</td><td>Roata emoțiilor de bază</td></tr>
+        <tr><td><code>imagini/hipnograma-somn.png</code></td><td>imagine</td><td>Hipnogramă: N1, N2, N3, REM</td></tr>
+        <tr><td><code>imagini/creier-dezvoltare.svg</code></td><td>SVG</td><td>Prunarea sinaptică, trei vârste</td></tr>
+        <tr><td><code>imagini/sigla.png</code> și <code>sigla.svg</code></td><td>imagine</td><td>Sigla site-ului, raster și vector</td></tr>
+        <tr><td><code>imagini/coperta-video.png</code></td><td>poster</td><td>Posterul videoclipului (640×360)</td></tr>
+        <tr><td><code>imagini/coperta-audio.png</code></td><td>imagine</td><td>Coperta piesei audio</td></tr>
+        <tr><td><code>imagini/galerie-*.png</code></td><td>imagine</td><td>Patru carduri de galerie</td></tr>
+        <tr><th colspan="3" bgcolor="#E8E0F0" align="left"><font face="Verdana, Arial, sans-serif" size="1" color="#4A4E69">Generat automat de <code>unelte/genereaza_resurse.py</code> (Pillow + imageio-ffmpeg).</font></th></tr>
+      </tbody>
+    </table>
+  </section>
+
+</td></tr>
+</table>
+</main>
+
+<!-- ================= SUBSOLUL ================= -->
+<footer>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#22223B">
+    <tr><td height="8">&nbsp;</td></tr>
+  </table>
+  <table width="960" border="0" cellpadding="8" cellspacing="0">
+    <tr>
+      <td>
+        <font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">PSIHOLOGIA UMANĂ &middot; PAGINA 3 DIN 4</font><br>
+        <small>&copy; 2026 &middot; <a href="index.html">Acasă</a> &middot; <a href="ghid.html">Ghid</a> &middot; <a href="formular.html">Chestionar</a> &middot; Realizat doar cu HTML (fără CSS, fără JS)</small>
+      </td>
+    </tr>
+  </table>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#22223B">
+    <tr><td height="8">&nbsp;</td></tr>
+  </table>
+</footer>
+
+</body>
+</html>

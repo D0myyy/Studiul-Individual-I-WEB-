@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <rect x="0" y="0" width="400" height="250" fill="#F2E9E4"/>
+  <rect x="0" y="0" width="400" height="250" fill="none" stroke="#22223B" stroke-width="2"/>
+  <rect x="12" y="12" width="376" height="52" rx="10" fill="#22223B"/>
+  <text x="200" y="45" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#F2E9E4">CONȘTIINȚA</text>
+  <rect x="12" y="72" width="108" height="108" rx="10" fill="#C9ADA7"/>
+  <text x="66" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#22223B">ATENȚIA</text>
+  <text x="66" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#4A4E69">percepție</text>
+  <rect x="128" y="72" width="124" height="108" rx="10" fill="#9A8C98"/>
+  <text x="190" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#F2E9E4">MEMORIA</text>
+  <text x="190" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#F2E9E4">învățare</text>
+  <rect x="260" y="72" width="128" height="108" rx="10" fill="#4A4E69"/>
+  <text x="324" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#F2E9E4">EMOȚIILE</text>
+  <text x="324" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#C9ADA7">trăiri</text>
+  <rect x="12" y="188" width="376" height="50" rx="10" fill="#E8E0F0"/>
+  <text x="200" y="219" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#4A4E69">SUBCONȘTIENTUL — somn și consolidare</text>
+</svg>

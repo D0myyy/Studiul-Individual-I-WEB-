@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Chestionar de autoevaluare și contact — Psihologia Umană. Proiect HTML pur, fără CSS și fără JS.">
+  <meta name="author" content="Proiect individual — HTML">
+  <title>Chestionar și contact — Psihologia Umană</title>
+</head>
+<body bgcolor="#F2E9E4" text="#22223B" link="#4A4E69" vlink="#9A8C98" alink="#C9ADA7">
+
+<!-- ================= BANDA SUPERIOARĂ ================= -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#22223B">
+  <tr><td height="12">&nbsp;</td></tr>
+</table>
+
+<!-- ================= ANTETUL PAGINII ================= -->
+<header>
+  <table width="960" border="0" cellpadding="0" cellspacing="0">
+    <tr valign="top">
+      <td>
+        <p><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">PSIHOLOGIA UMANĂ &middot; CHESTIONAR &middot; PAGINA 4 DIN 4</font></p>
+        <h1><font face="Georgia, 'Times New Roman', serif" size="6" color="#22223B">Chestionar de autoevaluare</font></h1>
+        <p><font face="Georgia, serif" size="3" color="#4A4E69">Observă-ți stările și trimite răspunsurile &mdash;<br>totul rămâne în browserul tău.</font></p>
+      </td>
+      <td width="140" align="left">
+        <img src="imagini/sigla.png" alt="Sigla site-ului: profil de cap cu undă cerebrală" width="96" height="96" loading="eager">
+      </td>
+    </tr>
+  </table>
+  <table width="960" border="0" cellpadding="0" cellspacing="0">
+    <tr><td width="180" height="4" bgcolor="#C9ADA7">&nbsp;</td></tr>
+  </table>
+</header>
+
+<!-- ================= MENIUL COMUN DE NAVIGARE ================= -->
+<nav>
+  <table width="960" border="0" cellpadding="8" cellspacing="0" bgcolor="#E8E0F0">
+    <tr>
+      <td align="left">
+        <font face="Verdana, Arial, sans-serif" size="2" color="#4A4E69">
+          <a href="index.html"><strong>ACASĂ</strong></a> &nbsp;&bull;&nbsp;
+          <a href="ghid.html"><strong>GHID</strong></a> &nbsp;&bull;&nbsp;
+          <a href="multimedia.html"><strong>MULTIMEDIA</strong></a> &nbsp;&bull;&nbsp;
+          <strong><font color="#C9ADA7">CHESTIONAR</font></strong>
+        </font>
+      </td>
+    </tr>
+  </table>
+</nav>
+
+<!-- ================= CONȚINUTUL PRINCIPAL ================= -->
+<main>
+<table width="960" border="0" cellpadding="0" cellspacing="0">
+<tr><td align="left">
+
+  <p>&nbsp;</p>
+
+  <aside>
+    <table width="100%" border="0" cellpadding="14" cellspacing="0" bgcolor="#E8E0F0">
+      <tr>
+        <td>
+          <p align="left">
+            <strong>Important:</strong> site demonstrativ realizat doar cu HTML. Răspunsurile tale <strong>nu sunt salvate</strong><br>
+            și nu sunt trimise către niciun server: formularul folosește <code>method="get"</code>, deci răspunsurile<br>
+            apar doar în bara de adrese, ca exemplu didactic. Pentru sprijin psihologic real, adresează-te unui specialist.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </aside>
+
+  <p>&nbsp;</p>
+
+  <!-- ===== CHESTIONARUL ===== -->
+  <section id="chestionar">
+    <h2><font face="Georgia, serif" size="5" color="#22223B">Fișa de autoobservare</font></h2>
+
+    <form action="index.html" method="get">
+      <fieldset>
+        <legend><font face="Georgia, serif" size="3" color="#22223B"><strong>1. Despre tine</strong></font></legend>
+        <p align="left">
+          <label for="nume">Numele (sau pseudonimul):</label><br>
+          <input type="text" id="nume" name="nume" size="40" maxlength="60" placeholder="ex: Ana" required>
+        </p>
+        <p align="left">
+          <label for="email">Adresa de e-mail:</label><br>
+          <input type="email" id="email" name="email" size="40" placeholder="ex: ana@exemplu.ro">
+        </p>
+        <p align="left">
+          <label for="varsta">Vârsta (ani):</label>
+          <input type="number" id="varsta" name="varsta" min="10" max="99" step="1" value="16" size="4">
+          &nbsp;&nbsp;
+          <label for="data">Data fișei:</label>
+          <input type="date" id="data" name="data" value="2026-10-05">
+        </p>
+        <p align="left">
+          <label for="oraculcare">Ora la care te-ai trezit azi:</label>
+          <input type="time" id="oraculcare" name="oraculcare" value="07:30">
+        </p>
+        <p align="left">
+          <label for="activitate">Activitatea de azi (alege sau scrie liber):</label><br>
+          <input type="text" id="activitate" name="activitate" list="lista-activitati" size="40" placeholder="ex: citit">
+          <datalist id="lista-activitati">
+            <option value="citit"></option>
+            <option value="sport"></option>
+            <option value="muzică"></option>
+            <option value="prieteni"></option>
+            <option value="proiecte școlare"></option>
+          </datalist>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend><font face="Georgia, serif" size="3" color="#22223B"><strong>2. Starea de astăzi</strong></font></legend>
+        <p align="left">
+          <label for="energie">Nivelul de energie (0&ndash;10):</label>
+          <input type="range" id="energie" name="energie" min="0" max="10" step="1" value="6">
+        </p>
+        <p align="left">
+          Cum apreciezi somnul de azi-noapte?<br>
+          <label><input type="radio" name="somn" value="bun" checked> bun</label><br>
+          <label><input type="radio" name="somn" value="mediu"> mediu</label><br>
+          <label><input type="radio" name="somn" value="slab"> slab</label>
+        </p>
+        <p align="left">
+          Ce ai aplicat azi din ghid? (bifează tot ce se aplică)<br>
+          <label><input type="checkbox" name="aplicat" value="respiratie" checked> respirația 4-7-8</label><br>
+          <label><input type="checkbox" name="aplicat" value="atentie"> exercițiul de atenție</label><br>
+          <label><input type="checkbox" name="aplicat" value="repetitie"> repetiția spațiată</label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend><font face="Georgia, serif" size="3" color="#22223B"><strong>3. Starea de astăzi, în vizualizare</strong></font></legend>
+        <p align="left">
+          <label for="umfl">Cum te simți, într-un cuvânt?</label>
+          <select id="umfl" name="umfl">
+            <optgroup label="Pozitiv">
+              <option value="linistit" selected>liniștit</option>
+              <option value="curios">curios</option>
+              <option value="entuziasmat">entuziasmat</option>
+            </optgroup>
+            <optgroup label="Neutru">  
+              <option value="obosit">obosit</option>
+              <option value="ganditor">gânditor</option>
+            </optgroup>
+            <option value="agitat">agitat</option>
+          </select>
+        </p>
+        <p align="left">
+          <label for="descriere">Descrie starea în 2-3 propoziții:</label><br>
+          <textarea id="descriere" name="descriere" rows="4" cols="60" placeholder="Astăzi mă simt...">Astăzi mă simt…</textarea>
+        </p>
+        <p align="left">
+          <label for="obs">Obiectivul săptămânii (max. 100 caractere):</label><br>
+          <input type="text" id="obs" name="obs" maxlength="100" size="40" placeholder="ex: citesc 20 de minute pe zi">
+        </p>
+        <p align="left">
+          <label for="progres">Progres spre obiectiv:</label>
+          <progress id="progres" value="4" max="7"> 4 din 7 zile</progress> 4 din 7 zile
+        </p>
+        <p align="left">
+          <label for="tonus">Tonusul de azi:</label>
+          <meter id="tonus" value="6" min="0" max="10" low="3" high="8" optimum="7">6 din 10</meter> 6 din 10
+        </p>
+        <p align="left">
+          <label for="focus">Focalizarea de azi:</label>
+          <meter id="focus" value="3" min="0" max="10" low="3" high="8" optimum="7">3 din 10</meter> 3 din 10
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend><font face="Georgia, serif" size="3" color="#22223B"><strong>4. Trimitere</strong></font></legend>
+        <p align="left">
+          <button type="submit">Trimite fișa (exemplu didactic)</button>
+          <button type="reset">Golește câmpurile</button>
+        </p>
+        <p align="left">
+          <small>La trimitere, datele apar în bara de adrese (<code>method="get"</code>) și te întorci pe
+          <a href="index.html">pagina principală</a>. Nu există server: <code>action="index.html"</code> e doar demonstrativ.</small>
+        </p>
+      </fieldset>
+    </form>
+
+    <h3><font face="Georgia, serif" size="4" color="#4A4E69">Rezumat, în tabel</font></h3>
+    <p align="left">Câmpurile fișei, cu tipul lor HTML:</p>
+    <table border="1" cellpadding="6" cellspacing="0" width="100%" bordercolor="#C9ADA7">
+      <caption align="bottom"><font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">Tabel 1 — Tipurile de câmpuri folosite în chestionar.</font></caption>
+      <colgroup>
+        <col width="30%">
+        <col width="30%">
+        <col width="40%">
+      </colgroup>
+      <thead>
+        <tr bgcolor="#22223B">
+          <th align="left"><font face="Georgia, serif" color="#F2E9E4">Câmp</font></th>
+          <th align="left"><font face="Georgia, serif" color="#F2E9E4">Element / tip</font></th>
+          <th align="left"><font face="Georgia, serif" color="#F2E9E4">Scop</font></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Numele</td><td><code>input type="text"</code></td><td>identificare scurtă, cu <code>required</code></td></tr>
+        <tr><td>E-mail</td><td><code>input type="email"</code></td><td>verificare de format de către browser</td></tr>
+        <tr><td>Vârsta</td><td><code>input type="number"</code></td><td>doar numere, între 10 și 99</td></tr>
+        <tr><td>Data</td><td><code>input type="date"</code></td><td>selector de calendar</td></tr>
+        <tr><td>Ora trezirii</td><td><code>input type="time"</code></td><td>selector de oră</td></tr>
+        <tr><td>Activitatea</td><td><code>input + datalist</code></td><td>text liber cu sugestii</td></tr>
+        <tr><td>Energia</td><td><code>input type="range"</code></td><td>glisor 0–10</td></tr>
+        <tr><td>Somnul</td><td><code>input type="radio"</code></td><td>o singură alegere</td></tr>
+        <tr><td>Aplicat azi</td><td><code>input type="checkbox"</code></td><td>alegeri multiple</td></tr>
+        <tr><td>Starea</td><td><code>select</code> + <code>option</code> + <code>optgroup</code></td><td>listă derulantă grupată</td></tr>
+        <tr><td>Descrierea</td><td><code>textarea</code></td><td>text lung, 4 rânduri</td></tr>
+        <tr><td>Progresul</td><td><code>progress</code></td><td>task în curs: 4 din 7</td></tr>
+        <tr><td>Tonusul</td><td><code>meter</code></td><td>măsurătoare cu praguri low/high</td></tr>
+        <tr><th colspan="3" bgcolor="#E8E0F0" align="left"><font face="Verdana, Arial, sans-serif" size="1" color="#4A4E69">Toate câmpurile au <code>label for</code> sau etichetă proprie.</font></th></tr>
+      </tbody>
+    </table>
+  </section>
+
+</td></tr>
+</table>
+</main>
+
+<!-- ================= SUBSOLUL ================= -->
+<footer>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#22223B">
+    <tr><td height="8">&nbsp;</td></tr>
+  </table>
+  <table width="960" border="0" cellpadding="8" cellspacing="0">
+    <tr>
+      <td>
+        <font face="Verdana, Arial, sans-serif" size="1" color="#9A8C98">PSIHOLOGIA UMANĂ &middot; PAGINA 4 DIN 4</font><br>
+        <small>&copy; 2026 &middot; <a href="index.html">Acasă</a> &middot; <a href="ghid.html">Ghid</a> &middot; <a href="multimedia.html">Multimedia</a> &middot; Realizat doar cu HTML (fără CSS, fără JS)</small>
+      </td>
+    </tr>
+  </table>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#22223B">
+    <tr><td height="8">&nbsp;</td></tr>
+  </table>
+</footer>
+
+</body>
+</html>
